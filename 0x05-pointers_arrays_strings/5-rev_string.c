@@ -1,4 +1,4 @@
-#inckude "main.h"
+#include "main.h"
 /**
  * rev_string - a function that reverses a string
  * @s: string to be reversed
@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	while (s[a] != '\0')
 	{
-		a++
+		a++;
 	}
 	c = a - 1;
 	for (b = 0; c >= 0 && b < c; c--, b++)
