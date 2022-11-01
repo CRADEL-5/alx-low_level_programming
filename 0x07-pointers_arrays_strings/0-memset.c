@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - nothing
  * _memset - a function that fills memory with constant bytes
+ * main - to make sure i pass this stuff
  * @s: location to fill
  * @b: char to fill location with
  * @n: number of bytes to fill
@@ -20,6 +20,10 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (m);
 }
+/**
+ * main - to make sure i pass this stuff
+ * Return: pointer m
+ */
 int main(void)
 {
 	return (0);
