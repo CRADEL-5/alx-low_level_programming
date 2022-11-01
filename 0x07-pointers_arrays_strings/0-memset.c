@@ -9,19 +9,18 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *m;
+	char *m = s;
 
 	b = 0;
 	n = 0;
-	*m = b;
 
 	while (n++)
 	{
-		n >= 1;
 		*s = b;
 	}
 	return (m);
 }
 int main(void)
 {
+	return (0);
 }
