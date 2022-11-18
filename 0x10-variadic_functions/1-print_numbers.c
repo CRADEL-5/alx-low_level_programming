@@ -15,6 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (separator == NULL)
 		separator = "";
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", va_arg(ap, int));
 		if (i < n - 1)
@@ -22,4 +23,13 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	printf("\n");
 	va_end(ap);
+}
+
+/**
+ * main - doing nothing but making my code check
+ * Return: Always 0
+ */
+int main(void)
+{
+	return(0);
 }
