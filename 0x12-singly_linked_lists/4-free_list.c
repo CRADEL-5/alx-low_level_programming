@@ -15,12 +15,3 @@ void free_list(list_t *head)
 		free(head);
 	}
 }
-
-/**
- * main - nothing doing
- * Return: void
- */
-int main (void)
-{
-	return (0);
-}
